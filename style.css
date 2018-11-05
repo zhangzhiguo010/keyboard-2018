@@ -1,8 +1,15 @@
 *{margin:0;padding:0;}
 body{
     height: 100vh;
-    background: grey url(./1.png) no-repeat center center;
+    background: grey url(./bgImg.jpg) no-repeat center center;
     background-size: cover;
+}
+#mainWraper{
+    white-space: nowrap;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .row{
     margin: 16px;
